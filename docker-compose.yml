@@ -1,0 +1,8 @@
+version: '3'
+services:
+  notifier:
+   image: notifier
+   restart: unless-stopped
+   ports:
+     - 9900:9900
+   network_mode: bridge

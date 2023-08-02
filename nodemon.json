@@ -1,0 +1,53 @@
+{
+    "ignore": ["node_modules/*", "logs/*"],
+    "env": {
+        "NODE_ENV": "local",
+        "PORT": 9900,
+        "MONGO_URI": "mongodb+srv://root:13s257RuV04Iyf8d@majormongo-fc4b55b5.mongo.ondigitalocean.com/prod?tls=true&authSource=admin&replicaSet=majormongo",
+        "GOOGLE_CLIENT_ID": "1028296020359-egoo42queus2be3r37uj6fo5adh9vnlp.apps.googleusercontent.com",
+        "GOOGLE_CLIENT_SECRET": "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",
+
+        "key": "QpxEeU@K(ll)M3S@lF$pY4%djYLpmVUA",
+        "TOKEN_LENGTH": 48,
+        "ACCESS_TOKEN_TTL": 30,
+        "ACCESS_TOKEN_TTL_APP": 40,
+        "ACCESS_TOKEN_EXPIRES_FOR_APP": "month",
+        "ACCESS_TOKEN_EXPIRES_FOR_WEB": "minutes",
+        "REFRESH_TOKEN_TTL": 720,
+        "REFRESH_TOKEN_TTL_APP": 1000,
+        "COMM_HEADER_EXPIRE_IN": 10,
+        "COMM_HEADER_KEY": "37344C29A39482C478EFE9EF22BEB",
+        "REDIS_PORT":"6379",
+        "REDIS_HOST":"159.65.149.34",
+        "REDIS_PASSWORD":"zaki100",
+        "URL":"redis://@127.0.0.1:6379",
+        "TIME":"21600",
+        "MENU_TIME":"21600",
+        "CONTENT_TIME":"21600",
+        "ALLOWED_ORIGIN":[
+            "http://localhost:7700",
+            "http://localhost:9200",
+            "http://localhost:9300",
+            "http://localhost:9400",
+            "http://localhost:9000",
+            "http://localhost:9100",
+            "https://dev.majorkalshiclasses.com",
+            "https://staging.majorkalshiclasses.com",
+            "https://prod.majorkalshiclasses.com",
+            "http://localhost:3000",
+            "http://localhost:4000",
+            "http://localhost:4001",
+            "https://dev.apnacollege.in/",
+            "http://localhost:5173",
+            "https://mkcjeeneet.com",
+            "https://majorkalshiclasses.com",
+            "https://d855-2401-4900-1c3c-a52e-a87f-9a34-60fb-c718.ngrok-free.app",
+            "http://127.0.0.1:4040",
+            "http://localhost:4040"
+
+        ],
+        "STANDARD_SIGNUP_TIME":"2021-11-12T11:17:30.371Z"
+    }
+}
+
+
